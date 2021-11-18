@@ -11,11 +11,11 @@ class NumberAccumulator:
         self.alladd = 0.0
         self.indig = ''
 
-    def add(self, addin, data):  # 定义累加函数
+    def add(self, addin, data):                                             # 定义累加函数
         addone = addin + data
         return addone
 
-    def is_number(self, s):  # 定义判断数字函数
+    def is_number(self, s):                                                 # 定义判断数字函数
         try:
             float(s)
             return True
